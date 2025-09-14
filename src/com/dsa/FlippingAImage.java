@@ -4,7 +4,7 @@ public class FlippingAImage {
     public static void main(String[] args) {
 
     }
-    public int[][]flipandinvertImag(int[][] image){
+    public int[][]flipandinvertImage(int[][] image){
         for(int[]row:image){
             //reverse
             for(int i=0;i<(image[0].length+1)/2;i++){
